@@ -38,9 +38,9 @@ export default function Home() {
               <a href="#gallery" className="text-[#3A3A3A] hover:text-[#A8B99C] transition-colors duration-300">Galeri</a>
               <a href="#testimonials" className="text-[#3A3A3A] hover:text-[#A8B99C] transition-colors duration-300">Testimoni</a>
             </div>
-            <button className="px-4 md:px-6 py-2 md:py-2.5 bg-[#A8B99C] text-white rounded-full hover:bg-[#96A88A] transition-all duration-300 hover:shadow-lg text-sm md:text-base">
+            <a href="#offers" className="px-4 md:px-6 py-2 md:py-2.5 bg-[#A8B99C] text-white rounded-full hover:bg-[#96A88A] transition-all duration-300 hover:shadow-lg text-sm md:text-base inline-block text-center">
               Pesan
-            </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -70,9 +70,9 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4">
-                <button className="px-8 md:px-10 py-3 md:py-4 bg-[#A8B99C] text-white rounded-full font-semibold hover:bg-[#96A88A] transition-all duration-300 shadow-xl hover:-translate-y-0.5">
+                <a href="#offers" className="px-8 md:px-10 py-3 md:py-4 bg-[#A8B99C] text-white rounded-full font-semibold hover:bg-[#96A88A] transition-all duration-300 shadow-xl hover:-translate-y-0.5 inline-block text-center">
                   Pesan Sekarang
-                </button>
+                </a>
 
                 <a
                   href="#about"
@@ -125,18 +125,18 @@ export default function Home() {
                 Dari dapur artisan kami ke meja Anda, kami memastikan setiap potongan dibuat dengan
                 perhatian mendetail dan standar kualitas tertinggi.
               </p>
-              <div className="grid grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
                 <div className="text-center" data-aos="zoom-in" data-aos-delay="300">
-                  <div className="text-3xl font-bold text-[#A8B99C] mb-2">100%</div>
-                  <div className="text-sm text-[#5A5A5A]">Alami</div>
+                  <div className="text-2xl md:text-3xl font-bold text-[#A8B99C] mb-1 md:mb-2">100%</div>
+                  <div className="text-xs md:text-sm text-[#5A5A5A]">Alami</div>
                 </div>
                 <div className="text-center" data-aos="zoom-in" data-aos-delay="400">
-                  <div className="text-3xl font-bold text-[#A8B99C] mb-2">Segar</div>
-                  <div className="text-sm text-[#5A5A5A]">Setiap Hari</div>
+                  <div className="text-2xl md:text-3xl font-bold text-[#A8B99C] mb-1 md:mb-2">Segar</div>
+                  <div className="text-xs md:text-sm text-[#5A5A5A]">Setiap Hari</div>
                 </div>
                 <div className="text-center" data-aos="zoom-in" data-aos-delay="500">
-                  <div className="text-3xl font-bold text-[#A8B99C] mb-2">Premium</div>
-                  <div className="text-sm text-[#5A5A5A]">Kualitas</div>
+                  <div className="text-2xl md:text-3xl font-bold text-[#A8B99C] mb-1 md:mb-2">Premium</div>
+                  <div className="text-xs md:text-sm text-[#5A5A5A]">Kualitas</div>
                 </div>
               </div>
             </div>
@@ -302,9 +302,9 @@ export default function Home() {
                   <span className="text-[#5A5A5A]">Kartu ucapan gratis</span>
                 </div>
               </div>
-              <button className="w-full px-6 py-3 border-2 border-[#A8B99C] text-[#A8B99C] rounded-full hover:bg-[#A8B99C] hover:text-white transition-all duration-300 font-semibold">
+              <a href="#offers" className="w-full px-6 py-3 border-2 border-[#A8B99C] text-[#A8B99C] rounded-full hover:bg-[#A8B99C] hover:text-white transition-all duration-300 font-semibold inline-block text-center">
                 Pesan Sekarang
-              </button>
+              </a>
             </div>
 
             {/* Popular Package */}
@@ -340,9 +340,9 @@ export default function Home() {
                   <span className="text-white">Hemat Rp 5K</span>
                 </div>
               </div>
-              <button className="w-full px-6 py-3 bg-white text-[#A8B99C] rounded-full hover:bg-[#F5F1E8] transition-all duration-300 font-semibold shadow-lg">
+              <a href="#offers" className="w-full px-6 py-3 bg-white text-[#A8B99C] rounded-full hover:bg-[#F5F1E8] transition-all duration-300 font-semibold shadow-lg inline-block text-center">
                 Pesan Sekarang
-              </button>
+              </a>
             </div>
 
             {/* Premium Package */}
@@ -379,9 +379,9 @@ export default function Home() {
                   <span className="text-[#5A5A5A]">Hemat Rp 10K</span>
                 </div>
               </div>
-              <button className="w-full px-6 py-3 border-2 border-[#E8C5C0] text-[#E8C5C0] rounded-full hover:bg-[#E8C5C0] hover:text-white transition-all duration-300 font-semibold">
+              <a href="#offers" className="w-full px-6 py-3 border-2 border-[#E8C5C0] text-[#E8C5C0] rounded-full hover:bg-[#E8C5C0] hover:text-white transition-all duration-300 font-semibold inline-block text-center">
                 Pesan Sekarang
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -528,9 +528,9 @@ export default function Home() {
             Pesan sekarang dan manjakan diri Anda dengan dessert artisan terbaik.
             Sempurna untuk acara apapun atau sebagai hadiah istimewa untuk diri sendiri.
           </p>
-          <button className="px-10 py-4 bg-white text-[#A8B99C] rounded-full font-semibold hover:bg-[#F5F1E8] transition-all duration-300 hover:shadow-2xl transform hover:-translate-y-1">
+          <a href="#offers" className="px-10 py-4 bg-white text-[#A8B99C] rounded-full font-semibold hover:bg-[#F5F1E8] transition-all duration-300 hover:shadow-2xl transform hover:-translate-y-1 inline-block">
             Buat Pesanan
-          </button>
+          </a>
         </div>
       </section>
 
