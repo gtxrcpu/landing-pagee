@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Chesscuit - Artisan Desserts Crafted with Passion",
-  description: "Experience the perfect harmony of flavors with our artisan Chesscuit - delicate desserts handcrafted with premium ingredients.",
+  title: "Chesscuit - Dessert Artisan Dibuat dengan Penuh Cinta",
+  description: "Rasakan perpaduan sempurna rasa dengan Chesscuit artisan kami - dessert lembut yang dibuat dengan bahan premium. Harga mulai Rp 35.000 per box.",
 };
 
 export default function RootLayout({
@@ -21,6 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* AOS - Animate On Scroll Library */}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js" async></script>
       </head>
       <body className={`${poppins.variable} font-sans antialiased`} suppressHydrationWarning>
         {children}
