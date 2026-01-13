@@ -25,7 +25,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://unpkg.com/aos@next/dist/aos.js" async></script>
       </head>
-      <body className={`${poppins.variable} font-sans antialiased`} suppressHydrationWarning>
+      <body className={`${poppins.variable} font-sans antialiased overflow-x-hidden`} suppressHydrationWarning>
         {children}
       </body>
     </html>

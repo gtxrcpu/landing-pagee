@@ -23,12 +23,12 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div className="min-h-screen bg-[#FEFDFB]">
+    <div className="min-h-screen bg-[#FEFDFB] overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FEFDFB]/95 backdrop-blur-sm border-b border-[#A8B99C]/20">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
-            <div className="text-2xl font-bold text-[#3A3A3A] tracking-tight">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16 md:h-20">
+            <div className="text-xl md:text-2xl font-bold text-[#3A3A3A] tracking-tight">
               CHESSCUIT
             </div>
             <div className="hidden md:flex space-x-8">
@@ -38,8 +38,8 @@ export default function Home() {
               <a href="#gallery" className="text-[#3A3A3A] hover:text-[#A8B99C] transition-colors duration-300">Galeri</a>
               <a href="#testimonials" className="text-[#3A3A3A] hover:text-[#A8B99C] transition-colors duration-300">Testimoni</a>
             </div>
-            <button className="px-6 py-2.5 bg-[#A8B99C] text-white rounded-full hover:bg-[#96A88A] transition-all duration-300 hover:shadow-lg">
-              Pesan Sekarang
+            <button className="px-4 md:px-6 py-2 md:py-2.5 bg-[#A8B99C] text-white rounded-full hover:bg-[#96A88A] transition-all duration-300 hover:shadow-lg text-sm md:text-base">
+              Pesan
             </button>
           </div>
         </div>
